@@ -14,7 +14,7 @@ This repository contains code to build a Progressive Web Application. It provide
 - [License](#license)
 - [Questions](#questions)
 
-### This application has been deployed on heroku and can be viewed [here](https://arcane-hollows-20210.herokuapp.com)
+### This application has been deployed on heroku and can be viewed [here](https://lit-shore-30583.herokuapp.com/)
 
 ### The following image shows the web application's appearance and functionality:
 
