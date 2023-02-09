@@ -15,14 +15,17 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
+      //Plugin to generate HTML
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Text Editor'
       }),
+      //Plugin for SW
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
+      //Plugin for PWA
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
