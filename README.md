@@ -18,7 +18,7 @@ This repository contains code to build a Progressive Web Application. It provide
 
 ### The following image shows the web application's appearance and functionality:
 
-![screenshot](https://github.com/rashida53/tech-blog/blob/main/tech-blog-2.png?raw=true)
+![screenshot](https://github.com/rashida53/text-editor/blob/main/text-editor.png?raw=true)
 
 ## [**Installation**](#table-of-contents)
 
