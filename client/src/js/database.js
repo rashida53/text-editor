@@ -1,5 +1,6 @@
 import { openDB } from 'idb';
 
+//Creates database
 const initdb = async () =>
   openDB('jate', 1, {
     upgrade(db) {
@@ -12,6 +13,8 @@ const initdb = async () =>
     },
   });
 
+
+//Updates database
 export const putDb = async (content) => {
   console.log('Updating database');
   const jateDb = await openDB('jate', 1);
@@ -22,6 +25,7 @@ export const putDb = async (content) => {
   console.log('Data saved to database', result);
 };
 
+//Gets data
 export const getDb = async () => {
   console.log('Getting data');
   const jateDb = await openDB('jate', 1);
